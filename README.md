@@ -56,81 +56,126 @@ you were given.
 
 Both affirm. Only the second gives someone something to stand on.
 
+## The three tests
+
+Ask them in order. Most bad sentences die at the first.
+
+**1. Should this sentence exist?** Cut before you rewrite. Anything the reader
+already knows, anything the interface already says, anything true of every
+product, any courtesy padding after a complete thought. No rewrite saves a
+sentence that should not be there.
+
+**2. Where does it leave them?** Larger, level, or smaller. Level is the failure
+state, not the safe state, and it is where careful writers land most often.
+Clearer information is still level. Ask what the reader has that they did not
+have before. If the answer is "the information in the sentence", it is level.
+
+**3. Would a person say this out loud?** Read it. If you would not say it to
+someone across a table, cut it. Straining for lyric produces sentences nobody
+says, and it feels like craft while you are doing it.
+
 ## Samples
 
-### Interface copy
+### Trait to act
 
 ```diff
-- Enter sends, Shift and Enter makes a line.
-+ Send with Enter. Hold Shift if you're still writing.
+- You're a natural athlete.
++ You ran in the rain on Tuesday.
 ```
 
-The subject of the first sentence is a key. The reader is a spectator to their
-own keyboard. The second also leaves a door open onto a real moment, instead of
-closing the topic.
+Nobody can repeat a trait. They can repeat an act. This is the difference
+between the durable kind of confidence and the brittle kind.
+
+### A shortfall, completed
 
 ```diff
-- A corner mark means Pro.
-+ Open anything with a corner mark and look around. Pro brings the reading
-+ with it.
+- You've missed 6 of your last 10 sessions.
++ You've missed six of the last ten. All six were mornings. The four you made
++ were after work.
 ```
 
-"Means" asserts a static relation between two nouns and depicts no event.
-Nothing happens, so nothing lands.
+The first is a verdict. The second is something they can use. Naming a
+shortfall and stopping there is the most diminishing thing writing can do.
+
+### Level to larger
 
 ```diff
-- Nine sections, forty-one pages, one button.
-+ You're on one page of your chart. The switcher opens the rest.
+- Unlimited storage. Advanced editing. Priority support. Cloud sync.
++ You can stop deleting things to make room.
 ```
 
-A count hands someone a magnitude to measure themselves against. Enumeration
-also lets a writer avoid having a view. List five and one of them might land.
+Both true. Only one reaches into the reader's actual week. The feature stack is
+volume standing in for a claim worth making.
+
+### The reader as subject
 
 ```diff
-- Just tap the icon, it's easy.
-+ Tap the icon when you want it.
+- This screen displays your monthly spending.
++ Here's where your money went last month.
 ```
 
-"Just" implies anyone competent finds this easy, so struggling means you are
-not.
+The subject of the first sentence is a screen, which makes the reader a
+spectator to their own money.
 
-### Marketing
+### Pressure removed, fact kept
 
 ```diff
-- Unlock your potential with our revolutionary personalized system! You have a
-- natural gift for intuition, you just haven't tapped into it yet. Science
-- confirms that when you begin within, everything shifts. Simply complete your
-- profile. 70% OFF, next 30 minutes only.
+- Only 3 left! Order in the next 2 hours to get it by Friday.
++ Three left in your size.
+```
 
-+ Think of the last time you knew something before you could explain how.
+The fact was doing the work. The clock was doing something else.
+
+### Affectation
+
+```diff
+- Two minutes, before anything else asks for you.
++ Takes two minutes.
+```
+
+This one is mine. I wrote the first version while trying to make a two minute
+setup sound like poetry, which is how affectation happens. It reads as craft
+from the inside and as strain from the outside.
+
+### Sentences that should not exist
+
+```diff
+- Press Enter to send. Hold Shift and Enter for a new line.
 +
-+ That's the part of you this reads from. Give us your birth date, time and
-+ place, and each morning you'll get one word drawn from it, with somewhere to
-+ write down what it moved.
-+
-+ Birth time sharpens it. You can add that later if you have to go looking.
-+
-+ The annual plan is 70% less, and it'll be there when you want it.
 ```
 
-Seven things changed. The trait claim went, because it builds the fragile kind
-of pride. "You just haven't tapped into it yet" went, because that is a verdict
-wearing encouragement. The unnamed appeal to science went, because a reader who
-checks and finds nothing discounts everything else you said. The deadline went
-and the price stayed, because the fact survives and the clock does not.
+Everyone knows. It costs attention and returns nothing. Cut is a valid rewrite,
+and often the right one.
 
-The opening is the load bearing change. It is a question rather than a claim,
-which sends the reader to find their own evidence.
+### A full screen
 
-### An error state
+Onboarding for a sleep tracker.
 
 ```diff
-- Invalid input. Please make sure you enter a valid email address.
-+ That address didn't go through. Worth checking for a stray space at the end,
-+ that catches most of them.
+- Unlock your best sleep with the world's most advanced sleep tracker! You're a
+- natural night owl, you just haven't optimised your routine yet. Science shows
+- that consistent sleep improves everything. Simply wear your device to bed and
+- our AI will analyse your patterns. Unlimited history. Advanced insights.
+- Priority support. Smart alarms. 70% OFF, next 30 minutes only!
+
++ Most people's worst nights cluster on one weekday. You'll probably know which
++ one by Friday.
++
++ Wear it to bed. Nothing else to set up.
++
++ The annual plan is 70% less.
 ```
 
-"Please make sure you" is a controlling construction with no rationale.
+Seven changes. The trait claim went, because it builds the brittle kind of
+pride. "You just haven't optimised yet" went, because that is a verdict wearing
+encouragement. The unnamed appeal to science went, because a reader who checks
+and finds nothing discounts everything else. "Simply" went, because it implies
+anyone competent finds this easy. The deadline went and the price stayed,
+because the fact survives and the clock does not.
+
+The opening does the real work. It makes no claim about the reader, so there is
+nothing to reject, and it hands them a date by which they will have their own
+evidence.
 
 ## Why the question matters more than the sentence
 
@@ -158,7 +203,7 @@ statement with the reader as its subject, then anything else.
 
 ## What it detects
 
-Sixteen patterns in three banks, each with trigger words, the mechanism, and a
+Eighteen patterns in four banks, each with trigger words, the mechanism, and a
 before and after pair.
 
 Content: trait praise where act praise belongs, contingent regard, diagnosis
@@ -170,6 +215,8 @@ and transactional verbs, missing stance, premature closure.
 
 Commercial register: urgency and scarcity, benefit stacking, superlative and
 comparison, borrowed authority.
+
+Craft: sentences that should not exist, affectation.
 
 Plus twenty nine machine tells in the CLEAR pass, condensed from
 [`humanizer`](https://github.com/blader/humanizer).
@@ -243,6 +290,14 @@ shift/
 ```
 
 ## Version history
+
+**2.1.0** Three tests hoisted to the front, because most bad sentences die at
+the first one and the old version rewrote them instead. Two patterns added:
+sentences that should not exist, and affectation. All examples rebuilt to be
+legible to anyone, replacing ones that only worked if you already knew the
+product they came from. Added the rule that a sentence carries one position, not
+three, since forcing all three onto a price line is what produced the strained
+writing in 2.0.0.
 
 **2.0.0** Two modes. INHABIT added, for setting an assistant's voice rather than
 editing a document. CLEAR pass folded in from humanizer with attribution.

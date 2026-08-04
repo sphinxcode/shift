@@ -1,6 +1,6 @@
 ---
 name: shift
-version: 2.0.0
+version: 2.1.0
 description: |
   Shift writing into a register that leaves the reader more sovereign than it
   found them. Two modes. EDIT rewrites existing copy (interface text,
@@ -77,7 +77,7 @@ page, an error state, documentation, an email.
 
 1. Read `references/clear.md`. Run the CLEAR pass first. Machine tells are noise
    that hides the real problem.
-2. Read `references/edit.md`. Run the sixteen patterns, the two-pass audit, and
+2. Read `references/edit.md`. Run the eighteen patterns, the three-pass audit, and
    the counts.
 3. Return the four artifacts named in `references/edit.md`.
 
@@ -103,6 +103,34 @@ its pattern number, and which position it costs. Change nothing.
 
 ---
 
+## The three tests
+
+Ask them in this order, in both modes. Most bad sentences die at the first.
+
+1. **Should this sentence exist?** Cut before you rewrite. Anything the reader
+   already knows, anything the interface already says, anything true of every
+   product, and any courtesy padding after a complete thought. No rewrite saves
+   a sentence that should not be there.
+
+2. **Where does it leave them?** Larger, level, or smaller. **Level is the
+   failure state, not the safe state**, and it is where careful writers land
+   most often. Clearer information is still level. Ask: after this sentence,
+   what does the reader have that they did not have before? If the answer is
+   "the information in the sentence," it is level.
+
+3. **Would a person say this out loud?** Read it aloud. If you would not say it
+   to someone across a table, cut it. Straining for lyric produces sentences
+   nobody says, and it feels like craft while you are doing it.
+
+## One position per sentence
+
+A sentence carries one of the three, not all of them. Forcing Expanse onto a
+price line produces exactly the strained writing test three catches.
+
+- A price, a limit, a deadline: **Regard**. State it, no pressure, stop.
+- Anything about what they did: **Sovereignty**.
+- Anything about scale, pattern, or what they have not seen yet: **Expanse**.
+
 ## The delivery principle
 
 This governs both modes, so it lives here rather than in a reference.
@@ -122,9 +150,9 @@ reader interprets their own later experience.
 So the highest form of this method is not a better sentence. It is a sentence
 that invites the reader to say the thing themselves.
 
-> **Before:** Your strongest gift is listening.
-> **After:** Who talked to you this week when they wouldn't have talked to
-> anyone else?
+> **Before:** You're great at staying consistent.
+> **After:** Which day of this week did you show up when you didn't feel like
+> it?
 
 The first is a claim to accept or reject. The second sends them to find the
 evidence, and what they find is theirs.
